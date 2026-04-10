@@ -1,0 +1,36 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: url(fuego.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 100%;
+    overflow: hidden;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    opacity: 90%;
+    background-color: rgb(255, 0, 157);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boton {
+    background-color: rgb(38, 0, 255);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: rgb(0, 94, 201);
+}
